@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #141414;
+  color: white;
+}
+
+.list {
+  padding-left: 1rem;
+}
+
+.list-title {
+  font-size: 2rem;
+}
+
+.list-item {
+  font-size: 1.05rem;
+  display: flex;
+}
+
+.list-item-made {
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+  font-size: .75rem;
+  color: #505050;
+}
